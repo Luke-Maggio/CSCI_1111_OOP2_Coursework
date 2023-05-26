@@ -18,11 +18,11 @@ public class Exercise17__14 {
 				) {
 			inpt.setLength(0);
 			outpt.setLength(0);
+			inpt.seek(0);
 			
 			for (int i = 0; i < 100; i++)
 				inpt.writeInt(i);
 			
-			inpt.seek(0);
 			
 			int number = 0;
 			while((number = inpt.read()) != -1) {
