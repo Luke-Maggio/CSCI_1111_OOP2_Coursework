@@ -1,9 +1,4 @@
-/*
-Author: 
-Date: 
 
-Description: 
- */
 public class Exercise19_05 {
   public static void main(String[] args) {
     Integer[] numbers = {1, 2, 3};
